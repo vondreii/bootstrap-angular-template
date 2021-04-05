@@ -1,1 +1,59 @@
-<p>home works!</p>
+<div class="jumbotron">
+  <h1 class="display-4">Home</h1>
+  <p class="lead">This is an <b>Angular app</b> already set up with <b>routing</b>, <b>basic components</b> (Home, About, and Contact) and <b>Bootstrap</b> installed.</p>
+  <hr class="my-4">
+  <p class="lead pb-2">Links at the top route to <code>/about</code> and <code>/contact</code>, and same with buttons:</p>
+  <p class="lead">
+    <a class="btn btn-primary btn-lg mr-5 mb-2" href="/about" role="button">About</a>
+    <a class="btn btn-primary btn-lg mr-5 mb-2" href="/contact" role="button">Contact</a>
+  </p>
+</div>
+
+<hr>
+
+<h2 class="pt-3">Routing</h2>
+
+<p> Routing is configured <code>src/app/app-routing.module.ts</code></p>
+
+<h2 class="pt-3">App Component</h2>
+
+<p> This is the main application page, the navbar is displayed here and the router outlet will change based on the route the user has selected (eg, <code>/about</code>).</p>
+<p><code>
+  < app-navbar > < /app-navbar >
+  <br>
+  < div class="content" >
+    <br>
+    < router-outlet > < /router-outlet >
+    <br>
+  < /div >
+</code></p>
+
+<h2 class="pt-3">Home</h2>
+
+<p> HTML content: <code>src/app/home/home.component.html</code></p>
+<p> CSS styling: <code>src/app/home/home.component.scss</code></p>
+<p> Typescript: <code>src/app/home/home.component.ts</code></p>
+<p> Testing: <code>src/app/home/home.component.spec.ts</code></p>
+
+<h2 class="pt-3">About</h2>
+
+<p> HTML content: <code>src/app/about/about.component.html</code></p>
+<p> CSS styling: <code>src/app/about/about.component.scss</code></p>
+<p> Typescript: <code>src/app/about/about.component.ts</code></p>
+<p> Testing: <code>src/app/about/about.component.spec.ts</code></p>
+
+<h2 class="pt-3">Contact</h2>
+
+<p> HTML content: <code>src/app/contact/contact.component.html</code></p>
+<p> CSS styling: <code>src/app/contact/contact.component.scss</code></p>
+<p> Typescript: <code>src/app/contact/contact.component.ts</code></p>
+<p> Testing: <code>src/app/contact/contact.component.spec.ts</code></p>
+
+<h2 class="pt-3">Navbar</h2>
+
+<p> HTML content: <code>src/app/contact/contact.component.html</code></p>
+<p> CSS styling: <code>src/app/contact/contact.component.scss</code></p>
+<p> Typescript: <code>src/app/contact/contact.component.ts</code></p>
+<p> Testing: <code>src/app/contact/contact.component.spec.ts</code></p>
+
+<hr>
