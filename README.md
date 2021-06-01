@@ -1,4 +1,4 @@
-# project-template
+# angular-template
 
 ## About 
 
